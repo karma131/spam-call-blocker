@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'vn.quietcall'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'vn.quietcall'
+        minSdk 29
+        targetSdk 35
+        versionCode 3
+        versionName '1.2'
+        testInstrumentationRunner 'vn.quietcall.StoreTestRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
